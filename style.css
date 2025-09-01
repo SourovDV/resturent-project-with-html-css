@@ -97,35 +97,53 @@
     height: 283px;
     margin-bottom: 10px;
 }
-.pizza-name{
+
+.pizza-name {
     font-size: 20px;
     font-weight: bold;
-    background-color:aquamarine;
+    background-color: aquamarine;
     padding: 5px;
     margin: 0px auto;
 }
-.on-sale{
-     font-size: 25px;
+
+.on-sale {
+    font-size: 25px;
     font-weight: bold;
-   
+
     padding: 5px;
     margin: 0px auto;
 }
-.on-sale-description{
+
+.on-sale-description {
     text-align: center;
     margin-top: 10px;
 }
-.food-container{
+
+.food-container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.on-sale-btn{
+
+.on-sale-btn {
     background-color: aquamarine;
     padding: 5px;
 }
-.btn-div{
+
+.btn-div {
     display: flex;
     justify-content: center;
     margin: 20px 0px;
+}
+
+/* footer  */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    background-image: linear-gradient(360.00deg, rgb(218, 208, 208), rgba(194, 174, 174, 0) 100%), url(./image/biriyani.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
